@@ -1,0 +1,16 @@
+platform :ios,'8.0'
+#bridging-header是swift刚出的时候，官方提供一种混编的方式。现在cocoapods 的版本已经支持swift 了，当你在安装pods的时候，添加下面这句话.
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+#它在cocoa pods中已经对Swift进行了配置，所以可以直接使用
+
+inhibit_all_warnings!
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'FoodCamera' do
+    pod 'SnapKit'
+    pod 'GPUImage'
+end
+
+
+

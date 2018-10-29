@@ -1,0 +1,20 @@
+PODS:
+  - GPUImage (0.1.7)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - GPUImage
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GPUImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 1982b8a7cdb08a1bdadf9aec1e5ab2d86c9b94c9
+
+COCOAPODS: 1.5.2
